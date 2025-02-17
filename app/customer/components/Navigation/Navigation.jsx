@@ -251,7 +251,7 @@ const Navigation = () => {
             </div>
           </div>
 
-          <div className="border-t border-gray-200 px-4 py-6">
+          {/* <div className="border-t border-gray-200 px-4 py-6">
             <a href="#" className="-m-2 flex items-center p-2">
               <img
                 alt=""
@@ -261,7 +261,7 @@ const Navigation = () => {
               <span className="ml-3 block text-base font-medium text-gray-900">CAD</span>
               <span className="sr-only">, change currency</span>
             </a>
-          </div>
+          </div> */}
         </DialogPanel>
       </div>
     </Dialog>
@@ -285,7 +285,7 @@ const Navigation = () => {
             </button>
 
             {/* Logo */}
-            <div className="ml-4 flex lg:ml-0">
+            {/* <div className="ml-4 flex lg:ml-0">
               <a href="#">
                 <span className="sr-only">Your Company</span>
                 <img
@@ -294,7 +294,7 @@ const Navigation = () => {
                   className="h-8 w-auto"
                 />
               </a>
-            </div>
+            </div> */}
 
             {/* Flyout menus */}
             <PopoverGroup className="hidden lg:ml-8 lg:block lg:self-stretch">
@@ -387,7 +387,7 @@ const Navigation = () => {
                 </a>
               </div>
 
-              <div className="hidden lg:ml-8 lg:flex">
+              {/* <div className="hidden lg:ml-8 lg:flex">
                 <a href="#" className="flex items-center text-gray-700 hover:text-gray-800">
                   <img
                     alt=""
@@ -397,7 +397,7 @@ const Navigation = () => {
                   <span className="ml-3 block text-sm font-medium">CAD</span>
                   <span className="sr-only">, change currency</span>
                 </a>
-              </div>
+              </div> */}
 
               {/* Search */}
               <div className="flex lg:ml-6">

@@ -3,7 +3,7 @@ import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import {MainCaroselData} from './MainCaroselData';
-
+//
 
 
 
@@ -14,7 +14,7 @@ const MainCarosel = () => {
         items={items}
         disableButtonsControls
         autoPlay
-        autoPlayInterval={1000}
+        autoPlayInterval={500}
         infinite
     />
    )
